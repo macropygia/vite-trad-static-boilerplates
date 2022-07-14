@@ -1,4 +1,4 @@
-# vite-static-boilerplates
+# vite-trad-static-boilerplates
 
 [![Vite](https://img.shields.io/badge/Vite-646cff?style=flat-square&logo=Vite&logoColor=white)](https://ja.vitejs.dev/)
 
