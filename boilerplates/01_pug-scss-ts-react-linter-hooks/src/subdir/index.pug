@@ -1,0 +1,14 @@
+extends /assets/templates/_base
+
+block vars
+  - meta.title = '2nd Level'
+
+block body
+  link(rel='stylesheet', href='/subdir/subdir.scss')
+  script(type='module', src='/assets/react/sample.tsx')
+  #react-sample
+  p.subdir
+    | This line is styled by
+    |
+    code /subdir/subdir.scss
+  include /subdir/_partial/_partial

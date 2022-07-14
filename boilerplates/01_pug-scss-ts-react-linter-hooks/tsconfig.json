@@ -1,0 +1,24 @@
+{
+  // ref. https://github.com/tsconfig/bases/blob/main/bases/node16-strictest-esm.combined.json
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "allowJs": false,
+    "checkJs": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": false, // for Multiple JS
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "rootDir": "./",
+    "paths": {
+      "~/*": ["*"],
+      "@/*": ["assets/*"],
+      "^/*": ["assets/react/*"]
+    }
+  },
+  "include": ["src"]
+}

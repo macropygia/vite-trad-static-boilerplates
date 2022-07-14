@@ -1,0 +1,11 @@
+extends /assets/templates/_base
+
+block vars
+  - meta.title = 'Non-index Page'
+
+block body
+  link(rel='stylesheet', href='/subdir/subdir.scss')
+  p.subdir
+    | This line is styled by
+    |
+    code /subdir/subdir.scss
