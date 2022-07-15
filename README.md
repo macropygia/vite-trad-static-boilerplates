@@ -4,4 +4,4 @@
 
 **English** | [日本語](./README.ja_JP.md)
 
-Boilerplates for traditional static site development using Vite(V2).
+Boilerplates for traditional static site development using Vite.
